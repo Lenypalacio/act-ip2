@@ -1,0 +1,29 @@
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  color: #fff;
+  padding: 0 20px;
+}
+
+nav .items {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  place-items: center;
+}
+
+nav .items .item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav .items .item:hover {
+  background-color: orangered;
+}

@@ -1,0 +1,19 @@
+
+
+.container {
+
+}
+
+.wrapper {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.wrapper .box {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.wrapper .box input, textarea {
+  padding: 5px 10px;
+}
